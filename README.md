@@ -1,4 +1,4 @@
-# Paper Minecraft server container
+# Minecraft server in Docker container
 
 This project builds a container image for a Paper Java Edition server. The server runs as an unprivileged `minecraft` user. The Paper JAR is stored in the image at `/opt/minecraft/server.jar`; the server configuration, plugins, and world data are stored under `/data`.
 
